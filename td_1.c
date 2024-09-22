@@ -130,7 +130,7 @@ int EX9(){
             if ((7 <= h && h <= 13) || (16 <= h && h <= 19)) {
                 printf("La pharmacie est ouverte.");
             } else {
-                printf("La pharmacie est fermée.");
+                printf("La pharmacie est fermÃ©e.");
             }
             break;
         case 'A':
@@ -138,7 +138,7 @@ int EX9(){
             if (7 <= h && h <= 14) {
                 printf("La pharmacie est ouverte.");
             } else {
-                printf("La pharmacie est fermée.");
+                printf("La pharmacie est fermÃ©e.");
             }
             break;
         default:
@@ -234,3 +234,4 @@ int EX11 (){
     return 0;
 }
 
+// New Version
